@@ -9,18 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e917fa0-cc29-4bd8-85f8-9e5f9c4c3eec" name="Changes" comment="day23(JdbcTemplate)">
-      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/java/com/jiankun/blog/utils/JDBCUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/fe6d0217-2dc3-4b24-b27c-2f7d94e3f8a3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/src/test/java/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog-admin/src/test/java/com/jiankun/blog/Demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/blog-admin/WEB-INF/classes/com/jiankun/blog/pojo/Blog.class" beforeDir="false" afterPath="$PROJECT_DIR$/blog-admin/target/blog-admin/WEB-INF/classes/com/jiankun/blog/pojo/Blog.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/blog-admin/WEB-INF/classes/com/jiankun/blog/pojo/vo/BlogVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/blog-admin/target/blog-admin/WEB-INF/classes/com/jiankun/blog/pojo/vo/BlogVO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/classes/com/jiankun/blog/dao/impl/BlogDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/blog-admin/target/classes/com/jiankun/blog/dao/impl/BlogDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/classes/com/jiankun/blog/pojo/Blog.class" beforeDir="false" afterPath="$PROJECT_DIR$/blog-admin/target/classes/com/jiankun/blog/pojo/Blog.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/classes/com/jiankun/blog/pojo/vo/BlogVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/blog-admin/target/classes/com/jiankun/blog/pojo/vo/BlogVO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/test-classes/Demo.class" beforeDir="false" />
+    <list default="true" id="7e917fa0-cc29-4bd8-85f8-9e5f9c4c3eec" name="Changes" comment="day23">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-admin/target/blog-admin/WEB-INF/classes/com/jiankun/blog/dao/impl/BlogDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/blog-admin/target/blog-admin/WEB-INF/classes/com/jiankun/blog/dao/impl/BlogDaoImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -264,7 +255,7 @@
       <workItem from="1739857345725" duration="28434000" />
       <workItem from="1739925100334" duration="10497000" />
       <workItem from="1739948269655" duration="5528000" />
-      <workItem from="1739954399708" duration="2012000" />
+      <workItem from="1739954399708" duration="2371000" />
     </task>
     <task id="LOCAL-00001" summary="111">
       <option name="closed" value="true" />
@@ -298,7 +289,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739937671695</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="day23">
+      <option name="closed" value="true" />
+      <created>1739956631551</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1739956631551</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -322,6 +321,7 @@
     <MESSAGE value="Day22(blog项目)" />
     <MESSAGE value="？" />
     <MESSAGE value="day23(JdbcTemplate)" />
-    <option name="LAST_COMMIT_MESSAGE" value="day23(JdbcTemplate)" />
+    <MESSAGE value="day23" />
+    <option name="LAST_COMMIT_MESSAGE" value="day23" />
   </component>
 </project>

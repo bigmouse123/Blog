@@ -12,4 +12,6 @@ public class BlogQuery {
     private Integer page;
     private Integer limit;
     private String name;
+    private Integer typeId;
+//    private String typeName;
 }

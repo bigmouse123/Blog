@@ -3,7 +3,7 @@ package com.jiankun.blog.dao.impl;
 import com.jiankun.blog.dao.ITypeDao;
 import com.jiankun.blog.pojo.Type;
 import com.jiankun.blog.query.TypeQuery;
-import com.jiankun.blog.utils.JDBCUtils;
+import com.jiankun.blog.utils.JDBCUtil;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -26,7 +26,7 @@ public class TypeDaoImpl implements ITypeDao {
         ResultSet resultSet = null;
         List<Type> list = null;
         try {
-            connection = JDBCUtils.getConnection();
+            connection = JDBCUtil.getConnection();
             String sql = "SELECT * from type WHERE 1=1";
             List<Object> params = new ArrayList<>();
             String queryName = typeQuery.getName();
@@ -59,7 +59,7 @@ public class TypeDaoImpl implements ITypeDao {
         } catch (SQLException e) {
             throw new RuntimeException(e);
         } finally {
-            JDBCUtils.close(connection, statement, resultSet);
+            JDBCUtil.close(connection, statement, resultSet);
         }
         return list;
     }
@@ -71,7 +71,7 @@ public class TypeDaoImpl implements ITypeDao {
         ResultSet resultSet = null;
         int totalCount = 0;
         try {
-            connection = JDBCUtils.getConnection();
+            connection = JDBCUtil.getConnection();
             String sql = "SELECT COUNT(*) FROM type WHERE 1=1";
             List<Object> params = new ArrayList<>();
             String queryName = typeQuery.getName();
@@ -91,7 +91,7 @@ public class TypeDaoImpl implements ITypeDao {
         } catch (SQLException e) {
             throw new RuntimeException(e);
         } finally {
-            JDBCUtils.close(connection, statement, resultSet);
+            JDBCUtil.close(connection, statement, resultSet);
         }
         return totalCount;
     }
@@ -101,7 +101,7 @@ public class TypeDaoImpl implements ITypeDao {
         Connection connection = null;
         PreparedStatement statement = null;
         try {
-            connection = JDBCUtils.getConnection();
+            connection = JDBCUtil.getConnection();
             String sql = "insert into type(name) values(?)";
             statement = connection.prepareStatement(sql);
             statement.setString(1, type.getName());
@@ -112,7 +112,7 @@ public class TypeDaoImpl implements ITypeDao {
         } catch (SQLException e) {
             throw new RuntimeException(e);
         } finally {
-            JDBCUtils.close(connection, statement, null);
+            JDBCUtil.close(connection, statement, null);
         }
     }
 
@@ -123,7 +123,7 @@ public class TypeDaoImpl implements ITypeDao {
         ResultSet resultSet = null;
         List<Type> list = new ArrayList<>();
         try {
-            connection = JDBCUtils.getConnection();
+            connection = JDBCUtil.getConnection();
             String sql = "SELECT * FROM type";
             statement = connection.prepareStatement(sql);
             System.out.println(statement);
@@ -140,7 +140,7 @@ public class TypeDaoImpl implements ITypeDao {
         } catch (SQLException e) {
             throw new RuntimeException(e);
         } finally {
-            JDBCUtils.close(connection, statement, resultSet);
+            JDBCUtil.close(connection, statement, resultSet);
         }
         return list;
     }

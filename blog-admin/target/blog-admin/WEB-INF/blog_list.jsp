@@ -21,6 +21,12 @@
     <div class="layui-inline">
         <input type="text" name="name" class="layui-input" lay-affix="clear">
     </div>
+    分类：
+    <div class="layui-inline">
+        <select id="typeId" name="typeId">
+            <option value=""></option>
+        </select>
+    </div>
     <div class="layui-inline">
         <button class="layui-btn" lay-submit lay-filter="submitSearch">搜索</button>
         <button type="reset" class="layui-btn layui-btn-primary">重置</button>
@@ -58,9 +64,27 @@
 
 <script>
     layui.use(['table', 'layer', 'form'], function () {
+
         var table = layui.table;
         var form = layui.form;
         var layer = layui.layer
+
+        $.post(
+            '/type?method=selectAll',
+            function (result) {
+                console.log(result.data)
+                if (result.code === 0) {
+                    var list = result.data;
+                    console.log(list)
+                    $(list).each(function () {
+                        $('#typeId').append('<option value="' + this.id + '">' + this.name + '</option>')
+                    })
+                    form.render('select');
+                }
+            },
+            'json'
+        );
+
         table.render({
             elem: '#tableId'
             , url: '/blog'
@@ -75,7 +99,7 @@
                     , {field: 'content', title: '文本内容', escape: false}
                     , {field: 'typeName', title: '博客分类'}
                     , {field: 'status', title: '状态', templet: '#statusTemplet'}
-                    , {field: 'deleted', title: '逻辑删除'}
+                    , {field: 'isDeleted', title: '逻辑删除'}
                     , {field: 'createTime', title: '创建时间'}
                     , {field: 'updateTime', title: '更新时间'}
                     , {fixed: 'right', title: '操作', width: 134, minWidth: 125, templet: '#toolDemo'}

@@ -23,7 +23,7 @@ public class BlogVO {
     private String content;
     private Integer typeId;
     private Integer status;
-    private Boolean deleted;
+    private Boolean isDeleted;
     @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss", timezone = "GMT+8")
     private Date createTime;
     @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss", timezone = "GMT+8")

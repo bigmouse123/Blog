@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .ok {
+            color: green;
+        }
+
+        .error {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+        名字:<input type="text" id="name" onblur="checkName()">
+        <span id="nameMsg"></span>
+        <br>
+        邮箱:<input type="text" id="email" onblur="checkEmail()">
+        <span id="emailMsg"></span>
+        <script src="jquery-2.1.4.js" type="text/javascript" charset="utf-8"></script>
+<script>
+    function checkName() {
+        var name = $('#name').val();
+        var regex = /^[a-zA-Z0-9_]{5,10}$/
+        if (name.match(regex)) {
+            $('#nameMsg').html('数据格式正确');
+            $('#nameMsg').removeClass();
+            $('#nameMsg').addClass('ok');
+        } else {
+            $('#nameMsg').html(('数据格式错误'));
+            $('#nameMsg').removeClass();
+            $('#nameMsg').addClass('error');
+        }
+    }
+    function checkEmail() {
+        var name = $('#email').val();
+        var regex = /\d{8,11}@qq|163|126|google|outbook[.]com|cn/
+        if (name.match(regex)) {
+            $('#emailMsg').html('邮箱格式正确');
+            $('#emailMsg').removeClass();
+            $('#emailMsg').addClass('ok');
+        } else {
+            $('#emailMsg').html(('邮箱格式错误'));
+            $('#emailMsg').removeClass();
+            $('#emailMsg').addClass('error');
+        }
+    }
+</script>
+</body>
+</html>

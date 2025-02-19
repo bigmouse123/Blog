@@ -1,3 +1,5 @@
+package com.jiankun.blog;
+
 import org.junit.Test;
 
 /**

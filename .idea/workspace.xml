@@ -9,27 +9,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e917fa0-cc29-4bd8-85f8-9e5f9c4c3eec" name="Changes" comment="？">
+    <list default="true" id="7e917fa0-cc29-4bd8-85f8-9e5f9c4c3eec" name="Changes" comment="day23(JdbcTemplate)">
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/java/com/jiankun/blog/utils/JDBCUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/fe6d0217-2dc3-4b24-b27c-2f7d94e3f8a3.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/blog-admin/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/src/main/java/com/jiankun/blog/dao/impl/BlogDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog-admin/src/main/java/com/jiankun/blog/dao/impl/BlogDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/src/main/java/com/jiankun/blog/dao/impl/TypeDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog-admin/src/main/java/com/jiankun/blog/dao/impl/TypeDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/src/main/java/com/jiankun/blog/pojo/Blog.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog-admin/src/main/java/com/jiankun/blog/pojo/Blog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/src/main/java/com/jiankun/blog/pojo/vo/BlogVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog-admin/src/main/java/com/jiankun/blog/pojo/vo/BlogVO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/src/main/java/com/jiankun/blog/query/BlogQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog-admin/src/main/java/com/jiankun/blog/query/BlogQuery.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/src/main/java/com/jiankun/blog/utils/JDBCUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog-admin/src/main/java/com/jiankun/blog/utils/JDBCUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/src/main/webapp/WEB-INF/blog_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/blog-admin/src/main/webapp/WEB-INF/blog_list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/blog-admin/WEB-INF/blog_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/blog-admin/target/blog-admin/WEB-INF/blog_list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/blog-admin/WEB-INF/classes/com/jiankun/blog/dao/impl/BlogDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/blog-admin/target/blog-admin/WEB-INF/classes/com/jiankun/blog/dao/impl/BlogDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/blog-admin/WEB-INF/classes/com/jiankun/blog/dao/impl/TypeDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/blog-admin/target/blog-admin/WEB-INF/classes/com/jiankun/blog/dao/impl/TypeDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/blog-admin/WEB-INF/classes/com/jiankun/blog/query/BlogQuery.class" beforeDir="false" afterPath="$PROJECT_DIR$/blog-admin/target/blog-admin/WEB-INF/classes/com/jiankun/blog/query/BlogQuery.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/blog-admin/WEB-INF/classes/com/jiankun/blog/servlet/BlogServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/blog-admin/target/blog-admin/WEB-INF/classes/com/jiankun/blog/servlet/BlogServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/blog-admin/WEB-INF/classes/com/jiankun/blog/utils/JDBCUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/blog-admin/target/blog-admin/WEB-INF/classes/com/jiankun/blog/utils/JDBCUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-admin/src/test/java/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog-admin/src/test/java/com/jiankun/blog/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-admin/target/blog-admin/WEB-INF/classes/com/jiankun/blog/pojo/Blog.class" beforeDir="false" afterPath="$PROJECT_DIR$/blog-admin/target/blog-admin/WEB-INF/classes/com/jiankun/blog/pojo/Blog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-admin/target/blog-admin/WEB-INF/classes/com/jiankun/blog/pojo/vo/BlogVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/blog-admin/target/blog-admin/WEB-INF/classes/com/jiankun/blog/pojo/vo/BlogVO.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog-admin/target/classes/com/jiankun/blog/dao/impl/BlogDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/blog-admin/target/classes/com/jiankun/blog/dao/impl/BlogDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/classes/com/jiankun/blog/dao/impl/TypeDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/blog-admin/target/classes/com/jiankun/blog/dao/impl/TypeDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/classes/com/jiankun/blog/query/BlogQuery.class" beforeDir="false" afterPath="$PROJECT_DIR$/blog-admin/target/classes/com/jiankun/blog/query/BlogQuery.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/classes/com/jiankun/blog/servlet/BlogServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/blog-admin/target/classes/com/jiankun/blog/servlet/BlogServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/classes/com/jiankun/blog/utils/JDBCUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/blog-admin/target/classes/com/jiankun/blog/utils/JDBCUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-admin/target/classes/com/jiankun/blog/pojo/Blog.class" beforeDir="false" afterPath="$PROJECT_DIR$/blog-admin/target/classes/com/jiankun/blog/pojo/Blog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-admin/target/classes/com/jiankun/blog/pojo/vo/BlogVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/blog-admin/target/classes/com/jiankun/blog/pojo/vo/BlogVO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-admin/target/test-classes/Demo.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +33,7 @@
         <option value="Jsp File" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -78,12 +70,15 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.RegexDemo.executor": "Run",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "JUnit.RegexDemo.main1.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "Tomcat Server.blog-admin.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/idea-workspace/Blog/blog-admin/src/main/java/com/jiankun/blog/utils",
+    "last_opened_file_path": "E:/idea-workspace/Blog/blog-admin/src/test/java/com/jiankun/blog",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -107,15 +102,18 @@
       <recent name="com.jiankun.blog.dao" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\idea-workspace\Blog\blog-admin\src\test\java\com\jiankun\blog" />
       <recent name="E:\idea-workspace\Blog\blog-admin\src\main\java\com\jiankun\blog\utils" />
       <recent name="E:\idea-workspace\Blog\blog-admin\src\main\webapp\WEB-INF" />
       <recent name="E:\idea-workspace\Blog\blog-admin\src\main\webapp\static" />
       <recent name="E:\idea-workspace\Blog" />
-      <recent name="E:\idea-workspace\Blog\blog-admin\src\main\webapp" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\idea-workspace\Blog\blog-admin\src\main" />
       <recent name="E:\idea-workspace\Blog\.idea" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.jiankun.blog" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.jiankun.blog.dao.impl" />
@@ -125,7 +123,30 @@
       <recent name="com.jiankun.blog.service" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Tomcat Server.blog-admin">
+    <configuration name="RegexDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jiankun.blog.RegexDemo" />
+      <module name="blog-admin" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegexDemo.main1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="blog-admin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jiankun.blog.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jiankun.blog" />
+      <option name="MAIN_CLASS_NAME" value="com.jiankun.blog.RegexDemo" />
+      <option name="METHOD_NAME" value="main1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="blog-admin" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.87" ALTERNATIVE_JRE_ENABLED="false">
       <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
       <option name="UPDATING_POLICY" value="restart-server" />
@@ -215,6 +236,12 @@
         </option>
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.RegexDemo.main1" />
+        <item itemvalue="Application.RegexDemo" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -235,7 +262,9 @@
       <workItem from="1739778519309" duration="18912000" />
       <workItem from="1739838971514" duration="5592000" />
       <workItem from="1739857345725" duration="28434000" />
-      <workItem from="1739925100334" duration="10428000" />
+      <workItem from="1739925100334" duration="10497000" />
+      <workItem from="1739948269655" duration="5528000" />
+      <workItem from="1739954399708" duration="2012000" />
     </task>
     <task id="LOCAL-00001" summary="111">
       <option name="closed" value="true" />
@@ -261,7 +290,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739891613038</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="day23(JdbcTemplate)">
+      <option name="closed" value="true" />
+      <created>1739937671695</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1739937671695</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -284,6 +321,7 @@
     <MESSAGE value="111" />
     <MESSAGE value="Day22(blog项目)" />
     <MESSAGE value="？" />
-    <option name="LAST_COMMIT_MESSAGE" value="？" />
+    <MESSAGE value="day23(JdbcTemplate)" />
+    <option name="LAST_COMMIT_MESSAGE" value="day23(JdbcTemplate)" />
   </component>
 </project>

@@ -9,9 +9,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e917fa0-cc29-4bd8-85f8-9e5f9c4c3eec" name="Changes" comment="day23">
+    <list default="true" id="7e917fa0-cc29-4bd8-85f8-9e5f9c4c3eec" name="Changes" comment="ignore文件">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/blog-admin/WEB-INF/classes/com/jiankun/blog/dao/impl/BlogDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/blog-admin/target/blog-admin/WEB-INF/classes/com/jiankun/blog/dao/impl/BlogDaoImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -255,7 +254,7 @@
       <workItem from="1739857345725" duration="28434000" />
       <workItem from="1739925100334" duration="10497000" />
       <workItem from="1739948269655" duration="5528000" />
-      <workItem from="1739954399708" duration="2371000" />
+      <workItem from="1739954399708" duration="2873000" />
     </task>
     <task id="LOCAL-00001" summary="111">
       <option name="closed" value="true" />
@@ -297,7 +296,23 @@
       <option name="project" value="LOCAL" />
       <updated>1739956631551</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="day23~">
+      <option name="closed" value="true" />
+      <created>1739956796022</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1739956796022</updated>
+    </task>
+    <task id="LOCAL-00007" summary="ignore文件">
+      <option name="closed" value="true" />
+      <created>1739956924662</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1739956924662</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -322,6 +337,8 @@
     <MESSAGE value="？" />
     <MESSAGE value="day23(JdbcTemplate)" />
     <MESSAGE value="day23" />
-    <option name="LAST_COMMIT_MESSAGE" value="day23" />
+    <MESSAGE value="day23~" />
+    <MESSAGE value="ignore文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="ignore文件" />
   </component>
 </project>

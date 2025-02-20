@@ -66,7 +66,7 @@ public class BlogDaoImpl2 implements IBlogDao {
                 String content = resultSet.getString("content");
                 int typeId = resultSet.getInt("type_id");
                 int status = resultSet.getInt("status");
-                boolean isDeleted = resultSet.getBoolean("is_deleted");
+                Integer isDeleted = resultSet.getInteger("is_deleted");
                 Date createTime = resultSet.getTimestamp("create_time");
                 Date updateTime = resultSet.getTimestamp("update_time");
                 String typeName = resultSet.getString("typeName");

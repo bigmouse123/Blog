@@ -49,6 +49,9 @@ public class BlogServlet extends HttpServlet {
             case "update":
                 update(req, resp);
                 break;
+            case "exportExcel":
+                exportExcel(req, resp);
+                break;
 //            case "toList":
 //                toList(req, resp);
 //                break;
@@ -65,6 +68,10 @@ public class BlogServlet extends HttpServlet {
 //    private void toList(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 //        req.getRequestDispatcher("/WEB-INF/blog_list.jsp").forward(req, resp);
 
+    }
+
+    private void exportExcel(HttpServletRequest req, HttpServletResponse resp) {
+        blogService.exportExcel(resp);
     }
 
     private void update(HttpServletRequest req, HttpServletResponse resp) throws IOException {

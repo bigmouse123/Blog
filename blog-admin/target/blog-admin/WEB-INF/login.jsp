@@ -9,7 +9,7 @@
 <html>
 <head>
     <title>登录</title>
-    <link rel="stylesheet" href="static/layui/css/layui.css">
+    <link rel="stylesheet" href="/static/layui/css/layui.css">
 </head>
 <body>
 <style>
@@ -65,7 +65,7 @@
                 <div class="layui-col-xs5">
                     <div style="margin-left: 10px;">
                         <img src="/verifyCode"
-                             onclick="this.src='/verifyCode'+ new Date().getTime();">
+                             onclick="this.src='/verifyCode?'+ new Date().getTime();">
                     </div>
                 </div>
             </div>
@@ -99,7 +99,7 @@
                 if (result.code == 0) {
                     mylayer.okUrl(result.msg, '/');
                 } else {
-                    mylayer.errorMsg(result.msg);
+                    mylayer.errorUrl(result.msg);
                 }
             },
             'json'

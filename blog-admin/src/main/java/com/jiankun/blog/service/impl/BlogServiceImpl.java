@@ -8,6 +8,7 @@ import com.jiankun.blog.query.BlogQuery;
 import com.jiankun.blog.service.IBlogService;
 import com.jiankun.blog.utils.PageResult;
 
+import javax.servlet.http.HttpServletResponse;
 import java.util.List;
 
 /**
@@ -39,5 +40,10 @@ public class BlogServiceImpl implements IBlogService {
     @Override
     public void update(Blog blog) {
         blogDao.update(blog);
+    }
+
+    @Override
+    public void exportExcel(HttpServletResponse resp) {
+
     }
 }

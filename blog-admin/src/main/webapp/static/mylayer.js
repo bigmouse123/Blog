@@ -42,5 +42,15 @@ var mylayer = {
 				location.href = url;
 			}
 		);
+	},
+
+	errorUrl : function(content, url) {
+		layer.msg(
+			content,
+			{icon : 2, time : 3000},
+			function() {// msg消失之后触发的函数
+				location.href = url;
+			}
+		);
 	}
 }

@@ -5,6 +5,8 @@ import com.jiankun.blog.pojo.vo.BlogVO;
 import com.jiankun.blog.query.BlogQuery;
 import com.jiankun.blog.utils.PageResult;
 
+import javax.servlet.http.HttpServletResponse;
+
 /**
  * @author OfferKing
  * @version 1.0
@@ -18,4 +20,6 @@ public interface IBlogService {
     Blog selectById(String id);
 
     void update(Blog blog);
+
+    void exportExcel(HttpServletResponse resp);
 }

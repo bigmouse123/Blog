@@ -39,6 +39,8 @@
     <div class="layui-btn-container">
         <button class="layui-btn layui-btn-sm" lay-event="add">添加</button>
         <button class="layui-btn layui-btn-sm" lay-event="deleteAll">批量删除</button>
+        <button class="layui-btn layui-btn-sm" lay-event="exportExcel">导出Excel</button>
+        <button class="layui-btn layui-btn-sm" lay-event="importExcel">导入Excel</button>
     </div>
 </script>
 
@@ -203,6 +205,12 @@
                             'json'
                         );
                     });
+                    break;
+                case 'exportExcel':
+                    location.href = '/blog?method=exportExcel';
+                    break;
+                case 'importExcel':
+
                     break;
             }
         });

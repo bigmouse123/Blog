@@ -23,6 +23,10 @@ public class PageServlet extends HttpServlet {
             System.out.print(path + "\t");
         }
         System.out.println();
-        req.getRequestDispatcher("/WEB-INF/" + paths[2] + "_" + paths[3] + ".jsp").forward(req, resp);
+        if (paths.length == 4) {
+            req.getRequestDispatcher("/WEB-INF/" + paths[2] + "_" + paths[3] + ".jsp").forward(req, resp);
+        } else if (paths.length == 3) {
+            req.getRequestDispatcher("/WEB-INF/" + paths[2] + ".jsp").forward(req, resp);
+        }
     }
 }

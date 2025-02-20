@@ -4,14 +4,11 @@ import com.jiankun.blog.dao.IBlogDao;
 import com.jiankun.blog.pojo.Blog;
 import com.jiankun.blog.pojo.vo.BlogVO;
 import com.jiankun.blog.query.BlogQuery;
-import com.jiankun.blog.utils.JDBCUtil;
 import com.jiankun.blog.utils.JDBCUtils;
 import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import org.springframework.jdbc.core.JdbcTemplate;
 
-import java.sql.*;
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 
 /**
@@ -74,5 +71,18 @@ public class BlogDaoImpl implements IBlogDao {
     public void update(Blog blog) {
         String sql = "update blog set name=?,image=?,content=?,type_id=? where id=?";
         jdbcTemplate.update(sql, blog.getName(), blog.getImage(), blog.getContent(), blog.getTypeId(), blog.getId());
+    }
+
+    @Override
+    public List<Blog> selectAll() {
+        String sql = "select * from blog";
+        List<Blog> list = jdbcTemplate.query(sql, new BeanPropertyRowMapper<>(Blog.class));
+        return list;
+    }
+
+    @Override
+    public void addExcel(Blog blog) {
+        String sql = "insert into blog(name,image,content,type_id,status,is_deleted,click_count,create_time,update_time) values(?,?,?,?,?,?,?,?,?)";
+        jdbcTemplate.update(sql, blog.getName(), blog.getImage(), blog.getContent(), blog.getTypeId(), blog.getStatus(), blog.getIsDeleted(), blog.getClickCount(), blog.getCreateTime(), blog.getUpdateTime());
     }
 }

@@ -2,12 +2,15 @@ package com.jiankun.blog.service.impl;
 
 import com.jiankun.blog.dao.IBlogDao;
 import com.jiankun.blog.dao.impl.BlogDaoImpl;
+import com.jiankun.blog.listener.BlogExcelListener;
 import com.jiankun.blog.pojo.Blog;
 import com.jiankun.blog.pojo.vo.BlogVO;
 import com.jiankun.blog.query.BlogQuery;
 import com.jiankun.blog.service.IBlogService;
+import com.jiankun.blog.utils.ExcelUtil;
 import com.jiankun.blog.utils.PageResult;
 
+import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.util.List;
 
@@ -44,6 +47,12 @@ public class BlogServiceImpl implements IBlogService {
 
     @Override
     public void exportExcel(HttpServletResponse resp) {
+        List<Blog> list = blogDao.selectAll();
+        ExcelUtil.exportExcel(resp, list, Blog.class, "blog");
+    }
 
+    @Override
+    public void importExcel(HttpServletRequest req) {
+        ExcelUtil.importExcel(req, new BlogExcelListener(), Blog.class);
     }
 }

@@ -21,4 +21,8 @@ public interface IBlogDao {
     Blog selectById(String id);
 
     void update(Blog blog);
+
+    List<Blog> selectAll();
+
+    void addExcel(Blog blog);
 }

@@ -9,33 +9,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e917fa0-cc29-4bd8-85f8-9e5f9c4c3eec" name="Changes" comment="ignore文件">
+    <list default="true" id="7e917fa0-cc29-4bd8-85f8-9e5f9c4c3eec" name="Changes" comment="day24~">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/blog-admin/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/src/main/java/com/jiankun/blog/dao/impl/BlogDaoImpl2.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog-admin/src/main/java/com/jiankun/blog/dao/impl/BlogDaoImpl2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/src/main/java/com/jiankun/blog/pojo/Blog.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog-admin/src/main/java/com/jiankun/blog/pojo/Blog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-admin/src/main/java/com/jiankun/blog/dao/IBlogDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog-admin/src/main/java/com/jiankun/blog/dao/IBlogDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-admin/src/main/java/com/jiankun/blog/dao/impl/BlogDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog-admin/src/main/java/com/jiankun/blog/dao/impl/BlogDaoImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog-admin/src/main/java/com/jiankun/blog/service/IBlogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog-admin/src/main/java/com/jiankun/blog/service/IBlogService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog-admin/src/main/java/com/jiankun/blog/service/impl/BlogServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog-admin/src/main/java/com/jiankun/blog/service/impl/BlogServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog-admin/src/main/java/com/jiankun/blog/servlet/BlogServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog-admin/src/main/java/com/jiankun/blog/servlet/BlogServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/src/main/java/com/jiankun/blog/servlet/PageServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog-admin/src/main/java/com/jiankun/blog/servlet/PageServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog-admin/src/main/webapp/WEB-INF/blog_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/blog-admin/src/main/webapp/WEB-INF/blog_list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/src/main/webapp/WEB-INF/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/blog-admin/src/main/webapp/WEB-INF/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/src/main/webapp/static/mylayer.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog-admin/src/main/webapp/static/mylayer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/src/test/java/com/jiankun/blog/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog-admin/src/test/java/com/jiankun/blog/Demo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog-admin/target/blog-admin/WEB-INF/blog_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/blog-admin/target/blog-admin/WEB-INF/blog_list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/blog-admin/WEB-INF/classes/com/jiankun/blog/pojo/Blog.class" beforeDir="false" afterPath="$PROJECT_DIR$/blog-admin/target/blog-admin/WEB-INF/classes/com/jiankun/blog/pojo/Blog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-admin/target/blog-admin/WEB-INF/classes/com/jiankun/blog/dao/IBlogDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/blog-admin/target/blog-admin/WEB-INF/classes/com/jiankun/blog/dao/IBlogDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-admin/target/blog-admin/WEB-INF/classes/com/jiankun/blog/dao/impl/BlogDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/blog-admin/target/blog-admin/WEB-INF/classes/com/jiankun/blog/dao/impl/BlogDaoImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog-admin/target/blog-admin/WEB-INF/classes/com/jiankun/blog/service/IBlogService.class" beforeDir="false" afterPath="$PROJECT_DIR$/blog-admin/target/blog-admin/WEB-INF/classes/com/jiankun/blog/service/IBlogService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog-admin/target/blog-admin/WEB-INF/classes/com/jiankun/blog/service/impl/BlogServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/blog-admin/target/blog-admin/WEB-INF/classes/com/jiankun/blog/service/impl/BlogServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog-admin/target/blog-admin/WEB-INF/classes/com/jiankun/blog/servlet/BlogServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/blog-admin/target/blog-admin/WEB-INF/classes/com/jiankun/blog/servlet/BlogServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/blog-admin/WEB-INF/classes/com/jiankun/blog/servlet/PageServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/blog-admin/target/blog-admin/WEB-INF/classes/com/jiankun/blog/servlet/PageServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/blog-admin/WEB-INF/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/blog-admin/target/blog-admin/WEB-INF/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/blog-admin/static/mylayer.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog-admin/target/blog-admin/static/mylayer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/classes/com/jiankun/blog/pojo/Blog.class" beforeDir="false" afterPath="$PROJECT_DIR$/blog-admin/target/classes/com/jiankun/blog/pojo/Blog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-admin/target/classes/com/jiankun/blog/dao/IBlogDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/blog-admin/target/classes/com/jiankun/blog/dao/IBlogDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-admin/target/classes/com/jiankun/blog/dao/impl/BlogDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/blog-admin/target/classes/com/jiankun/blog/dao/impl/BlogDaoImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog-admin/target/classes/com/jiankun/blog/service/IBlogService.class" beforeDir="false" afterPath="$PROJECT_DIR$/blog-admin/target/classes/com/jiankun/blog/service/IBlogService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog-admin/target/classes/com/jiankun/blog/service/impl/BlogServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/blog-admin/target/classes/com/jiankun/blog/service/impl/BlogServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog-admin/target/classes/com/jiankun/blog/servlet/BlogServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/blog-admin/target/classes/com/jiankun/blog/servlet/BlogServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/classes/com/jiankun/blog/servlet/PageServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/blog-admin/target/classes/com/jiankun/blog/servlet/PageServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/test-classes/com/jiankun/blog/Demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/blog-admin/target/test-classes/com/jiankun/blog/Demo.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,37 +76,37 @@
     <option name="autoscrollToSource" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.RegexDemo.executor": "Run",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "JUnit.Demo.Test.executor": "Run",
-    "JUnit.EasyExcelDemo.testRead.executor": "Run",
-    "JUnit.EasyExcelDemo.testWrite.executor": "Run",
-    "JUnit.RegexDemo.main1.executor": "Run",
-    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Tomcat Server.blog-admin.executor": "Run",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/idea-workspace/JavaStudy2501",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.sourceCode.JSP",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.RegexDemo.executor&quot;: &quot;Run&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JUnit.Demo.Test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.EasyExcelDemo.testRead.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.EasyExcelDemo.testWrite.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RegexDemo.main1.executor&quot;: &quot;Run&quot;,
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Tomcat Server.blog-admin.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/idea-workspace/JavaStudy2501&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.JSP&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.jiankun.blog.dao.impl" />
@@ -134,11 +127,11 @@
       <recent name="com.jiankun.blog" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.jiankun.blog.listener" />
       <recent name="com.jiankun.blog.dao.impl" />
       <recent name="com.jiankun.blog.dao" />
       <recent name="com.jiankun.blog.service.impl" />
       <recent name="com.jiankun.blog.service" />
-      <recent name="com.jiankun.blog.servlet" />
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.blog-admin">
@@ -338,7 +331,8 @@
       <workItem from="1739964550568" duration="938000" />
       <workItem from="1739968852832" duration="75000" />
       <workItem from="1739970598019" duration="76000" />
-      <workItem from="1740012739426" duration="10865000" />
+      <workItem from="1740012739426" duration="11023000" />
+      <workItem from="1740029560712" duration="7735000" />
     </task>
     <task id="LOCAL-00001" summary="111">
       <option name="closed" value="true" />
@@ -404,7 +398,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739957342310</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="day24~">
+      <option name="closed" value="true" />
+      <created>1740025000675</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1740025000675</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -431,6 +433,7 @@
     <MESSAGE value="day23" />
     <MESSAGE value="day23~" />
     <MESSAGE value="ignore文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="ignore文件" />
+    <MESSAGE value="day24~" />
+    <option name="LAST_COMMIT_MESSAGE" value="day24~" />
   </component>
 </project>

@@ -35,6 +35,8 @@
 
 <table class="layui-hide" id="tableId" lay-filter="tableId"></table>
 
+<button lay-options="{accept: 'file'}" id="importExcel"></button>
+
 <script type="text/html" id="toolbarDemo">
     <div class="layui-btn-container">
         <button class="layui-btn layui-btn-sm" lay-event="add">添加</button>
@@ -65,11 +67,23 @@
 </script>
 
 <script>
-    layui.use(['table', 'layer', 'form'], function () {
+    layui.use(['table', 'layer', 'form', 'upload'], function () {
 
         var table = layui.table;
         var form = layui.form;
-        var layer = layui.layer
+        var layer = layui.layer;
+        var upload = layui.upload;
+
+        // 渲染
+        upload.render({
+            elem: '#importExcel', // 绑定多个元素
+            url: '/blog?method=importExcel', // 此处配置你自己的上传接口即可
+            accept: 'file', // 普通文件
+            done: function (res) {
+                layer.msg('上传成功');
+                console.log(res);
+            }
+        });
 
         $.post(
             '/type?method=selectAll',
@@ -210,7 +224,7 @@
                     location.href = '/blog?method=exportExcel';
                     break;
                 case 'importExcel':
-
+                    $('#importExcel').click();
                     break;
             }
         });

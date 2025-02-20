@@ -5,6 +5,7 @@ import com.jiankun.blog.pojo.vo.BlogVO;
 import com.jiankun.blog.query.BlogQuery;
 import com.jiankun.blog.utils.PageResult;
 
+import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
@@ -22,4 +23,6 @@ public interface IBlogService {
     void update(Blog blog);
 
     void exportExcel(HttpServletResponse resp);
+
+    void importExcel(HttpServletRequest req);
 }

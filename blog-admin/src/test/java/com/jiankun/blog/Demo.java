@@ -13,10 +13,14 @@ import java.util.regex.Pattern;
 public class Demo {
     @Test
     public void Test() {
-        String content = "\\abc$(a.bc(123( )";
+//        String content = "\\abc$(a.bc(123( )";
+        String content = "a211111a1aaaaahello";
+        //演示?的使用, 遵守贪婪匹配
+        String regStr = "a1?"; //匹配 a 或者 a1
+//        String regStr = "a{3}";// 表示匹配 aaa
         //匹配( => \\(
         //匹配. => \\.
-        String regStr = "\\\\";
+//        String regStr = "\\\\";
         Pattern pattern = Pattern.compile(regStr);
         Matcher matcher = pattern.matcher(content);
         while (matcher.find()) {

@@ -74,6 +74,10 @@
             <button type="button" class="layui-btn layui-btn-fluid" onclick="submitForm()" lay-submit lay-filter="demo-login">登录
             </button>
         </div>
+        <div class="layui-form-item">
+            <button type="button" class="layui-btn layui-btn-fluid" onclick="registerForm()" lay-submit lay-filter="demo-login">注册
+            </button>
+        </div>
     </div>
 
     <%--    用户名:<input type="text" name="name">--%>

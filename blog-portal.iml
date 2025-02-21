@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="4">
+  <component name="FacetManager">
+    <facet type="JRebel" name="JRebel">
+      <configuration>
+        <option name="ideModuleStorage">
+          <map>
+            <entry key="com.zeroturnaround.jrebel.FormatVersion" value="7.0.0" />
+            <entry key="jrebelEnabled" value="true" />
+            <entry key="rebelXmlGenerationInvariantToken" value="PGFwcGxpY2F0aW9uIGdlbmVyYXRlZC1ieT0iaW50ZWxsaWoiPjxpZD5ibG9nLXBvcnRhbDwvaWQ+PGNsYXNzcGF0aD48ZGlyIG5hbWU9IkU6L2lkZWEtd29ya3NwYWNlL0Jsb2cvYmxvZy1wb3J0YWwvdGFyZ2V0L2NsYXNzZXMiPjwvZGlyPjwvY2xhc3NwYXRoPjx3ZWI+PGxpbmsgdGFyZ2V0PSIvIj48ZGlyIG5hbWU9IkU6L2lkZWEtd29ya3NwYWNlL0Jsb2cvYmxvZy1wb3J0YWwvc3JjL21haW4vd2ViYXBwIj48L2Rpcj48L2xpbms+PC93ZWI+PC9hcHBsaWNhdGlvbj4=" />
+          </map>
+        </option>
+        <option name="version" value="5" />
+      </configuration>
+    </facet>
+    <facet type="web" name="Web">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/blog-portal/src/main/webapp/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/blog-portal/src/main/webapp" relative="/" />
+        </webroots>
+        <sourceRoots>
+          <root url="file://$MODULE_DIR$/blog-portal/src/main/java" />
+          <root url="file://$MODULE_DIR$/blog-portal/src/main/resources" />
+          <root url="file://$MODULE_DIR$/blog-portal/target/generated-sources/annotations" />
+        </sourceRoots>
+      </configuration>
+    </facet>
+  </component>
+</module>

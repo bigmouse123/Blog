@@ -109,6 +109,10 @@
         })
     }
 
+    function openPass() {
+        location.href = "/page/password/update";
+    }
+
 </script>
 </body>
 </html>

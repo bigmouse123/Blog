@@ -17,6 +17,11 @@ public class UserServiceImpl implements IUserService {
 
     @Override
     public User login(String username, String password) {
-        return userDao.login(username, MD5Util.MD5Encode(password));
+        return userDao.login(username, password);
+    }
+
+    @Override
+    public void updatePassword(String name, String newPassword) {
+        userDao.updatePassword(name, newPassword);
     }
 }

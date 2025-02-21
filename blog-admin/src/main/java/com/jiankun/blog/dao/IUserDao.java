@@ -9,4 +9,6 @@ import com.jiankun.blog.pojo.User;
  */
 public interface IUserDao {
     User login(String username, String password);
+
+    void updatePassword(String name, String newPassword);
 }

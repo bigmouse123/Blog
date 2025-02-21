@@ -3,6 +3,8 @@ package com.jiankun.blog.dao.impl;
 import com.jiankun.blog.dao.IUserDao;
 import com.jiankun.blog.pojo.User;
 import com.jiankun.blog.utils.JDBCUtil;
+import com.jiankun.blog.utils.JDBCUtils;
+import org.springframework.jdbc.core.JdbcTemplate;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -15,6 +17,8 @@ import java.sql.SQLException;
  * @date 2025/2/7 14:06
  */
 public class UserDaoImpl implements IUserDao {
+    JdbcTemplate jdbcTemplate = new JdbcTemplate(JDBCUtils.getDataSource());
+
     @Override
     public User login(String username, String password) {
         Connection connection = null;
@@ -38,5 +42,11 @@ public class UserDaoImpl implements IUserDao {
             JDBCUtil.close(connection, statement, resultSet);
         }
         return user;
+    }
+
+    @Override
+    public void updatePassword(String name, String newPassword) {
+        String sql = "update users set password = ? where name = ?";
+        jdbcTemplate.update(sql, newPassword, name);
     }
 }

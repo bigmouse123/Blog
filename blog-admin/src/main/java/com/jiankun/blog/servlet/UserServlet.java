@@ -35,6 +35,24 @@ public class UserServlet extends HttpServlet {
             case "logout":
                 logout(req, resp);
                 break;
+            case "updatePassword":
+                updatePassword(req, resp);
+                break;
+        }
+    }
+
+    private void updatePassword(HttpServletRequest req, HttpServletResponse resp) throws IOException {
+        System.out.println("updatePassword");
+        String name = req.getParameter("name");
+        String oldPassword = req.getParameter("oldPassword");
+        String newPassword = req.getParameter("newPassword");
+        User user = userService.login(name, oldPassword);
+        System.out.println(user);
+        if (user == null) {
+            JSONUtils.toJSON(resp, Result.error("密码错误"));
+        } else {
+            userService.updatePassword(name, newPassword);
+            JSONUtils.toJSON(resp, Result.ok("修改成功"));
         }
     }
 

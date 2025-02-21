@@ -14,12 +14,12 @@
 <body>
 
 <style>
-    .demo-login-container {
+    .demo-update-container {
         width: 320px;
         margin: 21px auto 0;
     }
 
-    .demo-login-other .layui-icon {
+    .demo-update-other .layui-icon {
         position: relative;
         display: inline-block;
         margin: 0 2px;
@@ -33,7 +33,7 @@
 <script src="/static/mylayer.js" type="text/javascript" charset="utf-8"></script>
 
 <form id="formId" method="post">
-    <div class="demo-login-container">
+    <div class="demo-update-container">
         <div class="layui-form-item">
             <div class="layui-input-wrap">
                 <div class="layui-input-prefix">
@@ -61,7 +61,35 @@
                        lay-reqtext="请再次填写新密码" autocomplete="off" class="layui-input" lay-affix="clear">
             </div>
         </div>
+        <div class="layui-form-item">
+            <button type="button" class="layui-btn layui-btn-fluid" onclick="submitForm()" lay-submit lay-filter="demo-update">修改
+            </button>
+        </div>
     </div>
 </form>
+<script>
+
+    var queryString = window.location.search;
+    var urlParams = new URLSearchParams(queryString);
+    var name = urlParams.get("name");
+    console.log(name);
+
+
+    function submitForm() {
+        $.post(
+            '/user?method=updatePassword&name=' + name,
+            $('#formId').serialize(),
+            function (result) {
+                console.log(result);
+                if (result.code == 0) {
+                    mylayer.okUrl(result.msg, '/');
+                } else {
+                    mylayer.errorUrl(result.msg, '/');
+                }
+            },
+            'json'
+        );
+    }
+</script>
 </body>
 </html>

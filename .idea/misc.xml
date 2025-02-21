@@ -7,11 +7,13 @@
         <option value="$PROJECT_DIR$/blog-admin/pom.xml" />
         <option value="$PROJECT_DIR$/blog-portal/pom.xml" />
         <option value="$PROJECT_DIR$/blog-portal2/pom.xml" />
+        <option value="$PROJECT_DIR$/blog-pp/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/blog-portal2/pom.xml" />
+        <option value="$PROJECT_DIR$/blog-pp/pom.xml" />
       </set>
     </option>
   </component>

@@ -95,6 +95,7 @@
     var $ = layui.jquery;
     var layer = layui.layer;
     var element = layui.element;
+
     $('.site-demo-active').click(function () {
         window.open($(this).data('url'), "rightframe");
     });
@@ -110,7 +111,7 @@
     }
 
     function openPass() {
-        location.href = "/page/password/update";
+        location.href = "/page/password/update?name=${user.name}";
     }
 
 </script>

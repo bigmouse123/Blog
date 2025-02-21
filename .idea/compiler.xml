@@ -13,6 +13,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="blog-portal2" target="1.8" />
+      <module name="blog-pp" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -22,7 +22,7 @@
     <div id="navgation" class="navgation navgation_close">
         <ul class="point">
             <li><a href="#">首页</a></li>
-            <li><a href="/static/article.html">博客</a></li>
+            <li><a href="/page/blog/list">博客</a></li>
             <li><a href="/static/message.html">留言</a></li>
         </ul>
         <div class="logo"><a>Mr.Yss</a></div>

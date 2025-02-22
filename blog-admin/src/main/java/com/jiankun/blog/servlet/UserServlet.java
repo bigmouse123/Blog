@@ -4,6 +4,7 @@ import com.jiankun.blog.pojo.User;
 import com.jiankun.blog.service.IUserService;
 import com.jiankun.blog.service.impl.UserServiceImpl;
 import com.jiankun.blog.utils.JSONUtils;
+import com.jiankun.blog.utils.MyBeanUtil;
 import com.jiankun.blog.utils.Result;
 
 import javax.servlet.ServletException;
@@ -26,6 +27,7 @@ public class UserServlet extends HttpServlet {
 
     @Override
     protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        System.out.println("service");
         req.setCharacterEncoding("UTF-8");
         String method = req.getParameter("method");
         switch (method) {
@@ -38,6 +40,20 @@ public class UserServlet extends HttpServlet {
             case "updatePassword":
                 updatePassword(req, resp);
                 break;
+            case "register":
+                register(req, resp);
+                break;
+        }
+    }
+
+    private void register(HttpServletRequest req, HttpServletResponse resp) throws IOException {
+        System.out.println("register");
+        User user = MyBeanUtil.copyToBean(req, User.class);
+        Boolean flag = userService.register(user);
+        if (flag) {
+            JSONUtils.toJSON(resp, Result.error("用户名已存在"));
+        } else {
+            JSONUtils.toJSON(resp, Result.ok("注册成功"));
         }
     }
 

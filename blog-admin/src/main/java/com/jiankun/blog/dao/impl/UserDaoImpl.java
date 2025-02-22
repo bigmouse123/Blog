@@ -4,6 +4,7 @@ import com.jiankun.blog.dao.IUserDao;
 import com.jiankun.blog.pojo.User;
 import com.jiankun.blog.utils.JDBCUtil;
 import com.jiankun.blog.utils.JDBCUtils;
+import org.springframework.dao.DataAccessException;
 import org.springframework.jdbc.core.JdbcTemplate;
 
 import java.sql.Connection;
@@ -48,5 +49,16 @@ public class UserDaoImpl implements IUserDao {
     public void updatePassword(String name, String newPassword) {
         String sql = "update users set password = ? where name = ?";
         jdbcTemplate.update(sql, newPassword, name);
+    }
+
+    @Override
+    public Boolean register(User user) {
+        String sql = "insert into users (name, password) values (?,?)";
+        try {
+            jdbcTemplate.update(sql, user.getName(), user.getPassword());
+            return false;
+        } catch (DataAccessException e) {
+            return true;
+        }
     }
 }

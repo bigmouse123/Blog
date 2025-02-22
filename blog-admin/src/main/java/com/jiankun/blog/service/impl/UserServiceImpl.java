@@ -4,7 +4,6 @@ import com.jiankun.blog.dao.IUserDao;
 import com.jiankun.blog.dao.impl.UserDaoImpl;
 import com.jiankun.blog.pojo.User;
 import com.jiankun.blog.service.IUserService;
-import com.jiankun.blog.utils.MD5Util;
 
 /**
  * @author OfferKing
@@ -23,5 +22,10 @@ public class UserServiceImpl implements IUserService {
     @Override
     public void updatePassword(String name, String newPassword) {
         userDao.updatePassword(name, newPassword);
+    }
+
+    @Override
+    public Boolean register(User user) {
+        return userDao.register(user);
     }
 }

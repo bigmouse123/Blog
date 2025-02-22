@@ -36,8 +36,10 @@ public class LoginFilter implements Filter {
         if (requestURI.startsWith("/static") ||
                 requestURI.equals("/page/login") ||
                 requestURI.equals("/page/fail") ||
+                requestURI.equals("/page/user/register") ||
                 requestURI.equals("/verifyCode") ||
-                (requestURI.equals("/user") && "login".equals(method))) {
+                (requestURI.equals("/user") && "login".equals(method)) ||
+                (requestURI.equals("/user") && "register".equals(method))) {
             filterChain.doFilter(request, response);
             return;
         }

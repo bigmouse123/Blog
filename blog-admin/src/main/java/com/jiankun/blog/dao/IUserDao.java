@@ -11,4 +11,6 @@ public interface IUserDao {
     User login(String username, String password);
 
     void updatePassword(String name, String newPassword);
+
+    Boolean register(User user);
 }

@@ -6,6 +6,7 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page isELIgnored="false" %>  <!-- 确保启用 EL -->
 <html>
 <head>
     <title>修改密码</title>
@@ -62,21 +63,25 @@
             </div>
         </div>
         <div class="layui-form-item">
-            <button type="button" class="layui-btn layui-btn-fluid" onclick="submitForm()" lay-submit lay-filter="demo-update">修改
+            <button type="button" class="layui-btn layui-btn-fluid" onclick="submitForm()" lay-submit
+                    lay-filter="demo-update">修改
             </button>
         </div>
     </div>
 </form>
+<script type="text/javascript">
+    var userName = "${sessionScope.user.name}";
+    console.log(userName);
+</script>
 <script>
-
     var queryString = window.location.search;
     var urlParams = new URLSearchParams(queryString);
     var name = urlParams.get("name");
     console.log(name);
 
-
     function submitForm() {
         $.post(
+            // '/user?method=updatePassword&name=' + userName,
             '/user?method=updatePassword&name=' + name,
             $('#formId').serialize(),
             function (result) {

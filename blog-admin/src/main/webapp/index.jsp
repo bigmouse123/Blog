@@ -112,6 +112,7 @@
 
     function openPass() {
         location.href = "/page/password/update?name=${user.name}";
+        // location.href = "/page/password/update";
     }
 
 </script>

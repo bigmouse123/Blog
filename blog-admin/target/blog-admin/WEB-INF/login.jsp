@@ -75,7 +75,7 @@
             </button>
         </div>
         <div class="layui-form-item">
-            <button type="button" class="layui-btn layui-btn-fluid" onclick="registerForm()" lay-submit lay-filter="demo-login">注册
+            <button type="button" class="layui-btn layui-btn-fluid" onclick="registerForm()" lay-submit lay-filter="demo-register">注册
             </button>
         </div>
     </div>
@@ -108,6 +108,10 @@
             },
             'json'
         );
+    }
+
+    function registerForm() {
+        location.href = "/page/user/register"
     }
 </script>
 </body>

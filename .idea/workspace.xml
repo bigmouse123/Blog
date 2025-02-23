@@ -2,138 +2,21 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="blog-admin:war exploded" />
+      <artifact name="blog-portal:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e917fa0-cc29-4bd8-85f8-9e5f9c4c3eec" name="Changes" comment="周六(修改密码完善)">
+    <list default="true" id="7e917fa0-cc29-4bd8-85f8-9e5f9c4c3eec" name="Changes" comment="周六(注册功能)">
+      <change beforePath="$PROJECT_DIR$/.idea/webContexts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/src/main/java/com/jiankun/blog/dao/IUserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog-admin/src/main/java/com/jiankun/blog/dao/IUserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/src/main/java/com/jiankun/blog/dao/impl/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog-admin/src/main/java/com/jiankun/blog/dao/impl/UserDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/src/main/java/com/jiankun/blog/filter/LoginFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog-admin/src/main/java/com/jiankun/blog/filter/LoginFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/src/main/java/com/jiankun/blog/service/IUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog-admin/src/main/java/com/jiankun/blog/service/IUserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/src/main/java/com/jiankun/blog/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog-admin/src/main/java/com/jiankun/blog/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/src/main/java/com/jiankun/blog/servlet/UserServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog-admin/src/main/java/com/jiankun/blog/servlet/UserServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/src/main/webapp/WEB-INF/user_register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/blog-admin/src/main/webapp/WEB-INF/user_register.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/blog-admin/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/blog-admin/WEB-INF/admin_list.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/blog-admin/WEB-INF/blog_add.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/blog-admin/WEB-INF/blog_list.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/blog-admin/WEB-INF/blog_update.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/blog-admin/WEB-INF/classes/com/jiankun/blog/dao/IBlogDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/blog-admin/WEB-INF/classes/com/jiankun/blog/dao/ITypeDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/blog-admin/WEB-INF/classes/com/jiankun/blog/dao/impl/BlogDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/blog-admin/WEB-INF/classes/com/jiankun/blog/dao/impl/TypeDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/blog-admin/WEB-INF/classes/com/jiankun/blog/pojo/Blog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/blog-admin/WEB-INF/classes/com/jiankun/blog/pojo/Type.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/blog-admin/WEB-INF/classes/com/jiankun/blog/pojo/vo/BlogVO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/blog-admin/WEB-INF/classes/com/jiankun/blog/query/BlogQuery.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/blog-admin/WEB-INF/classes/com/jiankun/blog/query/TypeQuery.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/blog-admin/WEB-INF/classes/com/jiankun/blog/service/IBlogService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/blog-admin/WEB-INF/classes/com/jiankun/blog/service/ITypeService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/blog-admin/WEB-INF/classes/com/jiankun/blog/service/impl/BlogServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/blog-admin/WEB-INF/classes/com/jiankun/blog/service/impl/TypeServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/blog-admin/WEB-INF/classes/com/jiankun/blog/servlet/BlogServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/blog-admin/WEB-INF/classes/com/jiankun/blog/servlet/PageServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/blog-admin/WEB-INF/classes/com/jiankun/blog/servlet/TypeServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/blog-admin/WEB-INF/classes/com/jiankun/blog/servlet/UploadServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/blog-admin/WEB-INF/classes/com/jiankun/blog/utils/JDBCUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/blog-admin/WEB-INF/classes/com/jiankun/blog/utils/JDBCUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/blog-admin/WEB-INF/classes/com/jiankun/blog/utils/JSONUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/blog-admin/WEB-INF/classes/com/jiankun/blog/utils/MD5Util.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/blog-admin/WEB-INF/classes/com/jiankun/blog/utils/MyBeanUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/blog-admin/WEB-INF/classes/com/jiankun/blog/utils/PageResult.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/blog-admin/WEB-INF/classes/com/jiankun/blog/utils/Result.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/blog-admin/WEB-INF/classes/db.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/blog-admin/WEB-INF/classes/druid.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/blog-admin/WEB-INF/lib/commons-beanutils-1.9.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/blog-admin/WEB-INF/lib/commons-collections-3.2.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/blog-admin/WEB-INF/lib/commons-fileupload-1.3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/blog-admin/WEB-INF/lib/commons-io-2.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/blog-admin/WEB-INF/lib/commons-lang3-3.3.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/blog-admin/WEB-INF/lib/commons-logging-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/blog-admin/WEB-INF/lib/druid-1.0.9.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/blog-admin/WEB-INF/lib/jackson-annotations-2.9.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/blog-admin/WEB-INF/lib/jackson-core-2.9.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/blog-admin/WEB-INF/lib/jackson-databind-2.9.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/blog-admin/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/blog-admin/WEB-INF/lib/mysql-connector-j-8.0.31.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/blog-admin/WEB-INF/lib/protobuf-java-3.19.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/blog-admin/WEB-INF/lib/spring-beans-5.3.22.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/blog-admin/WEB-INF/lib/spring-core-5.3.22.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/blog-admin/WEB-INF/lib/spring-jcl-5.3.22.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/blog-admin/WEB-INF/lib/spring-jdbc-5.3.22.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/blog-admin/WEB-INF/lib/spring-tx-5.3.22.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/blog-admin/WEB-INF/login.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/blog-admin/WEB-INF/type_add.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/blog-admin/WEB-INF/type_list.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/blog-admin/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/blog-admin/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/blog-admin/static/bootstrap-3.4.1-dist/css/bootstrap-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/blog-admin/static/bootstrap-3.4.1-dist/css/bootstrap-theme.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/blog-admin/static/bootstrap-3.4.1-dist/css/bootstrap-theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/blog-admin/static/bootstrap-3.4.1-dist/css/bootstrap-theme.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/blog-admin/static/bootstrap-3.4.1-dist/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/blog-admin/static/bootstrap-3.4.1-dist/css/bootstrap.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/blog-admin/static/bootstrap-3.4.1-dist/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/blog-admin/static/bootstrap-3.4.1-dist/css/bootstrap.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/blog-admin/static/bootstrap-3.4.1-dist/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/blog-admin/static/bootstrap-3.4.1-dist/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/blog-admin/static/bootstrap-3.4.1-dist/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/blog-admin/static/bootstrap-3.4.1-dist/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/blog-admin/static/bootstrap-3.4.1-dist/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/blog-admin/static/bootstrap-3.4.1-dist/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/blog-admin/static/bootstrap-3.4.1-dist/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/blog-admin/static/bootstrap-3.4.1-dist/js/npm.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/blog-admin/static/echarts.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/blog-admin/static/jquery-2.1.4.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/blog-admin/static/layui/css/layui.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/blog-admin/static/layui/css/modules/code.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/blog-admin/static/layui/css/modules/laydate/default/laydate.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/blog-admin/static/layui/css/modules/layer/default/icon-ext.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/blog-admin/static/layui/css/modules/layer/default/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/blog-admin/static/layui/css/modules/layer/default/layer.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/blog-admin/static/layui/css/modules/layer/default/loading-0.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/blog-admin/static/layui/css/modules/layer/default/loading-1.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/blog-admin/static/layui/css/modules/layer/default/loading-2.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/blog-admin/static/layui/font/iconfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/blog-admin/static/layui/font/iconfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/blog-admin/static/layui/font/iconfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/blog-admin/static/layui/font/iconfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/blog-admin/static/layui/font/iconfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/blog-admin/static/layui/layui.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/blog-admin/static/mylayer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/classes/com/jiankun/blog/dao/IBlogDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/classes/com/jiankun/blog/dao/ITypeDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/classes/com/jiankun/blog/dao/impl/BlogDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/classes/com/jiankun/blog/dao/impl/TypeDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/classes/com/jiankun/blog/pojo/Blog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/classes/com/jiankun/blog/pojo/Type.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/classes/com/jiankun/blog/pojo/vo/BlogVO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/classes/com/jiankun/blog/query/BlogQuery.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/classes/com/jiankun/blog/query/TypeQuery.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/classes/com/jiankun/blog/service/IBlogService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/classes/com/jiankun/blog/service/ITypeService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/classes/com/jiankun/blog/service/impl/BlogServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/classes/com/jiankun/blog/service/impl/TypeServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/classes/com/jiankun/blog/servlet/BlogServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/classes/com/jiankun/blog/servlet/PageServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/classes/com/jiankun/blog/servlet/TypeServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/classes/com/jiankun/blog/servlet/UploadServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/classes/com/jiankun/blog/utils/JDBCUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/classes/com/jiankun/blog/utils/JDBCUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/classes/com/jiankun/blog/utils/JSONUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/classes/com/jiankun/blog/utils/MD5Util.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/classes/com/jiankun/blog/utils/MyBeanUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/classes/com/jiankun/blog/utils/PageResult.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/classes/com/jiankun/blog/utils/Result.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/classes/db.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/classes/druid.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/test-classes/com/jiankun/blog/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/target/test-classes/com/jiankun/blog/RegexDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-portal/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/blog-portal/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-portal/src/main/java/com/jiankun/blog/dao/impl/BlogDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog-portal/src/main/java/com/jiankun/blog/dao/impl/BlogDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-portal/src/main/java/com/jiankun/blog/pojo/Type.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog-portal/src/main/java/com/jiankun/blog/pojo/Type.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-portal/src/main/webapp/WEB-INF/blog_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/blog-portal/src/main/webapp/WEB-INF/blog_list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-portal/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/blog-portal/src/main/webapp/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,9 +30,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="Jsp File" />
         <option value="Interface" />
         <option value="Class" />
-        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -187,40 +70,40 @@
     <option name="autoscrollToSource" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.RegexDemo.executor": "Run",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "JUnit.Demo.Test.executor": "Run",
-    "JUnit.EasyExcelDemo.testRead.executor": "Run",
-    "JUnit.EasyExcelDemo.testWrite.executor": "Run",
-    "JUnit.RegexDemo.main1.executor": "Run",
-    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Tomcat Server.blog-admin.executor": "Run",
-    "Tomcat Server.blog-portal.executor": "Run",
-    "Tomcat Server.blog-portal2.executor": "JRebel Executor",
-    "Tomcat Server.blog-pp.executor": "Run",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/idea-workspace/JavaStudy2501",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "com.zeroturnaround.javarebel.idea.plugin.settings.RemoteServersConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.RegexDemo.executor&quot;: &quot;Run&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JUnit.Demo.Test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.EasyExcelDemo.testRead.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.EasyExcelDemo.testWrite.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RegexDemo.main1.executor&quot;: &quot;Run&quot;,
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Tomcat Server.blog-admin.executor&quot;: &quot;Run&quot;,
+    &quot;Tomcat Server.blog-portal.executor&quot;: &quot;Run&quot;,
+    &quot;Tomcat Server.blog-portal2.executor&quot;: &quot;JRebel Executor&quot;,
+    &quot;Tomcat Server.blog-pp.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/idea-workspace/Blog/blog-portal/src/main/webapp/static&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.zeroturnaround.javarebel.idea.plugin.settings.RemoteServersConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
@@ -230,11 +113,11 @@
       <recent name="com.jiankun.blog.dao" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\idea-workspace\Blog\blog-portal\src\main\webapp\static" />
       <recent name="E:\idea-workspace\Blog\blog-portal\src\main\webapp" />
       <recent name="E:\idea-workspace\Blog\blog-portal\src\main\webapp\WEB-INF" />
       <recent name="E:\idea-workspace\Blog\blog-portal\src\main\resources" />
       <recent name="E:\idea-workspace\Blog\blog-portal\src\main" />
-      <recent name="E:\idea-workspace\Blog\blog-portal\src\main\java\com\jiankun" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\idea-workspace\Blog\blog-portal\src\main\java" />
@@ -254,7 +137,7 @@
       <recent name="com.jiankun.blog.service.impl" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.blog-admin">
+  <component name="RunManager" selected="Tomcat Server.blog-portal">
     <configuration name="RegexDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.jiankun.blog.RegexDemo" />
       <module name="blog-admin" />
@@ -460,6 +343,7 @@
       </deployment>
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="14b542eb-d4f0-469a-ba26-3c0215f69554" />
+        <option name="DEPLOY_TOMCAT_APPS" value="true" />
         <option name="HTTP_PORT" value="8081" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
@@ -627,7 +511,15 @@
       <workItem from="1740136821159" duration="15088000" />
       <workItem from="1740152898638" duration="469000" />
       <workItem from="1740154068839" duration="700000" />
-      <workItem from="1740184928742" duration="13955000" />
+      <workItem from="1740184928742" duration="13971000" />
+      <workItem from="1740203549325" duration="701000" />
+      <workItem from="1740205285992" duration="9075000" />
+      <workItem from="1740232656501" duration="18000" />
+      <workItem from="1740233698629" duration="126000" />
+      <workItem from="1740233971524" duration="11000" />
+      <workItem from="1740235566853" duration="970000" />
+      <workItem from="1740326098774" duration="24000" />
+      <workItem from="1740327540186" duration="1861000" />
     </task>
     <task id="LOCAL-00001" summary="111">
       <option name="closed" value="true" />
@@ -733,7 +625,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740190999946</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="周六(注册功能)">
+      <option name="closed" value="true" />
+      <created>1740199288266</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1740199288266</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -765,7 +665,8 @@
     <MESSAGE value="day25(初始化)" />
     <MESSAGE value="day25(修改密码)" />
     <MESSAGE value="周六(修改密码完善)" />
-    <option name="LAST_COMMIT_MESSAGE" value="周六(修改密码完善)" />
+    <MESSAGE value="周六(注册功能)" />
+    <option name="LAST_COMMIT_MESSAGE" value="周六(注册功能)" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

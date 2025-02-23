@@ -96,7 +96,7 @@
                 <div class="other-item" id="categoryandsearch">
                     <div class="search">
                         <label class="search-wrap">
-                            <input type="text" id="searchtxt" placeholder="输入关键字搜索"/>
+                            <input type="text" id="searchtxt" onclick="search()" placeholder="输入关键字搜索"/>
                             <span class="search-icon">
 					                <i class="fa fa-search"></i>
 					            </span>
@@ -106,9 +106,9 @@
                     <ul class="category mt20" id="category">
                         <li data-index="0" class="slider"></li>
                         <li data-index="1"><a href="/Blog/Article">全部文章</a></li>
-                        <li data-index="2"><a href="/Blog/Article/1/">Java</a></li>
-                        <li data-index="3"><a href="/Blog/Article/2/">UI</a></li>
-                        <li data-index="4"><a href="/Blog/Article/3/">H5</a></li>
+                        <%--                        <li data-index="2"><a href="javascript:void(0)" onclick="list(null, 1)">Java</a></li>--%>
+                        <%--                        <li data-index="3"><a href="javascript:void(0)" onclick="list(null, 2)">UI</a></li>--%>
+                        <%--                        <li data-index="4"><a href="javascript:void(0)" onclick="list(null, 3)">H5</a></li>--%>
                     </ul>
                 </div>
                 <!--右边悬浮 平板或手机设备显示-->
@@ -224,11 +224,23 @@
     window.onload = function () {
         NProgress.done();
         console.log("开始");
-        list();
+        $.post(
+            '/type?method=selectAll',
+            function (result) {
+                console.log(result.data)
+                if (result.code === 0) {
+                    var types = result.data;
+                    $(types).each(function () {
+                        $('#category').append('<li><a href="javascript:void(0)" onclick="list(null, ' + this.id + ')">' + this.name + '</a></li>')
+                    })
+                }
+                list();
+            },
+            'json'
+        );
     };
 
     function search() {
-
         var name = $('#searchtxt').val();
         list(name, null);
     }

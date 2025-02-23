@@ -24,12 +24,12 @@ public class BlogDaoImpl implements IBlogDao {
         String queryName = blogQuery.getName();
         List<Object> params = new ArrayList<>();
         if (queryName != null && !"".equals(queryName)) {
-            sql += " AND name like '%" + queryName + "%'";
-            params.add(queryName);
+            sql += " AND name like ?";
+            params.add("%" + queryName + "%");
         }
         Integer queryTypeId = blogQuery.getTypeId();
         if (queryTypeId != null) {
-            sql += " AND type_id =" + queryTypeId;
+            sql += " AND type_id = ?";
             params.add(queryTypeId);
         }
         List<Blog> list = jdbcTemplate.query(sql, new BeanPropertyRowMapper<>(Blog.class), params.toArray());

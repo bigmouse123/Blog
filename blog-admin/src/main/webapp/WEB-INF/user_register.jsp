@@ -53,7 +53,7 @@
                         </div>
                         <input type="text" name="cellphone" id="cellphone" onblur="checkPhone()" value=""
                                lay-verify="required|phone" placeholder="手机号"
-                               lay-reqtext="请填写手机号" autocomplete="off" class="layui-input" id="reg-cellphone">
+                               lay-reqtext="请填写手机号" autocomplete="off" class="layui-input">
                         <span id="phoneMsg"></span>
                     </div>
                 </div>
@@ -66,7 +66,7 @@
                 </div>
                 <input type="text" name="name" id="name" onblur="checkName()" value="" lay-verify="required"
                        placeholder="用户名"
-                       autocomplete="off" class="layui-input" id="reg-user" lay-affix="eye">
+                       autocomplete="off" class="layui-input" lay-affix="eye">
                 <span id="nameMsg"></span>
             </div>
         </div>
@@ -77,7 +77,7 @@
                 </div>
                 <input type="password" name="password" id="password" onblur="checkPassword()" value=""
                        lay-verify="required" placeholder="密码"
-                       autocomplete="off" class="layui-input" id="reg-password" lay-affix="eye">
+                       autocomplete="off" class="layui-input" lay-affix="eye">
                 <span id="passwordMsg"></span>
             </div>
         </div>

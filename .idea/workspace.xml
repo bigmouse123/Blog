@@ -2,21 +2,16 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="blog-portal:war exploded" />
+      <artifact name="blog-admin:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e917fa0-cc29-4bd8-85f8-9e5f9c4c3eec" name="Changes" comment="周六(注册功能)">
-      <change beforePath="$PROJECT_DIR$/.idea/webContexts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
+    <list default="true" id="7e917fa0-cc29-4bd8-85f8-9e5f9c4c3eec" name="Changes" comment="周日(blog右侧快速链接)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-portal/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/blog-portal/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-portal/src/main/java/com/jiankun/blog/dao/impl/BlogDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog-portal/src/main/java/com/jiankun/blog/dao/impl/BlogDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-portal/src/main/java/com/jiankun/blog/pojo/Type.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog-portal/src/main/java/com/jiankun/blog/pojo/Type.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-portal/src/main/webapp/WEB-INF/blog_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/blog-portal/src/main/webapp/WEB-INF/blog_list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-portal/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/blog-portal/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-admin/src/main/webapp/WEB-INF/user_register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/blog-admin/src/main/webapp/WEB-INF/user_register.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +54,9 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -86,7 +84,7 @@
     &quot;Tomcat Server.blog-pp.executor&quot;: &quot;Run&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/idea-workspace/Blog/blog-portal/src/main/webapp/static&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/idea-workspace/Blog&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -137,7 +135,7 @@
       <recent name="com.jiankun.blog.service.impl" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.blog-portal">
+  <component name="RunManager" selected="Tomcat Server.blog-admin">
     <configuration name="RegexDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.jiankun.blog.RegexDemo" />
       <module name="blog-admin" />
@@ -519,7 +517,28 @@
       <workItem from="1740233971524" duration="11000" />
       <workItem from="1740235566853" duration="970000" />
       <workItem from="1740326098774" duration="24000" />
-      <workItem from="1740327540186" duration="1861000" />
+      <workItem from="1740327540186" duration="2126000" />
+      <workItem from="1740357303993" duration="24000" />
+      <workItem from="1740360319690" duration="191000" />
+      <workItem from="1740382260966" duration="56000" />
+      <workItem from="1740399055060" duration="23000" />
+      <workItem from="1740969591230" duration="11110000" />
+      <workItem from="1741000537273" duration="7000" />
+      <workItem from="1741001883348" duration="29000" />
+      <workItem from="1741002189240" duration="30000" />
+      <workItem from="1741007610697" duration="431000" />
+      <workItem from="1741348935216" duration="287000" />
+      <workItem from="1741349337615" duration="148000" />
+      <workItem from="1741352562525" duration="1902000" />
+      <workItem from="1741354936141" duration="105000" />
+      <workItem from="1741445381456" duration="783000" />
+      <workItem from="1741451430823" duration="846000" />
+      <workItem from="1741452338004" duration="18000" />
+      <workItem from="1741533725615" duration="30000" />
+      <workItem from="1741533788755" duration="157000" />
+      <workItem from="1741534466126" duration="6037000" />
+      <workItem from="1741543438656" duration="38000" />
+      <workItem from="1741544385459" duration="169000" />
     </task>
     <task id="LOCAL-00001" summary="111">
       <option name="closed" value="true" />
@@ -633,7 +652,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740199288266</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="周日(blog右侧快速链接)">
+      <option name="closed" value="true" />
+      <created>1740329651079</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1740329651079</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -666,7 +693,8 @@
     <MESSAGE value="day25(修改密码)" />
     <MESSAGE value="周六(修改密码完善)" />
     <MESSAGE value="周六(注册功能)" />
-    <option name="LAST_COMMIT_MESSAGE" value="周六(注册功能)" />
+    <MESSAGE value="周日(blog右侧快速链接)" />
+    <option name="LAST_COMMIT_MESSAGE" value="周日(blog右侧快速链接)" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

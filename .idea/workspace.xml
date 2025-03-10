@@ -9,9 +9,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e917fa0-cc29-4bd8-85f8-9e5f9c4c3eec" name="Changes" comment="周日(blog右侧快速链接)">
+    <list default="true" id="7e917fa0-cc29-4bd8-85f8-9e5f9c4c3eec" name="Changes" comment="更新">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/src/main/webapp/WEB-INF/user_register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/blog-admin/src/main/webapp/WEB-INF/user_register.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +83,7 @@
     &quot;Tomcat Server.blog-pp.executor&quot;: &quot;Run&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/idea-workspace/Blog&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/idea-workspace/Blog/blog-admin/src/main/webapp/static&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -111,11 +110,11 @@
       <recent name="com.jiankun.blog.dao" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\idea-workspace\Blog\blog-admin\src\main\webapp\static" />
       <recent name="E:\idea-workspace\Blog\blog-portal\src\main\webapp\static" />
       <recent name="E:\idea-workspace\Blog\blog-portal\src\main\webapp" />
       <recent name="E:\idea-workspace\Blog\blog-portal\src\main\webapp\WEB-INF" />
       <recent name="E:\idea-workspace\Blog\blog-portal\src\main\resources" />
-      <recent name="E:\idea-workspace\Blog\blog-portal\src\main" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\idea-workspace\Blog\blog-portal\src\main\java" />
@@ -538,7 +537,11 @@
       <workItem from="1741533788755" duration="157000" />
       <workItem from="1741534466126" duration="6037000" />
       <workItem from="1741543438656" duration="38000" />
-      <workItem from="1741544385459" duration="169000" />
+      <workItem from="1741544385459" duration="204000" />
+      <workItem from="1741544958349" duration="252000" />
+      <workItem from="1741573443462" duration="65000" />
+      <workItem from="1741573643690" duration="289000" />
+      <workItem from="1741587494706" duration="1034000" />
     </task>
     <task id="LOCAL-00001" summary="111">
       <option name="closed" value="true" />
@@ -660,7 +663,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740329651079</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="更新">
+      <option name="closed" value="true" />
+      <created>1741544576733</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1741544576734</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -694,7 +705,8 @@
     <MESSAGE value="周六(修改密码完善)" />
     <MESSAGE value="周六(注册功能)" />
     <MESSAGE value="周日(blog右侧快速链接)" />
-    <option name="LAST_COMMIT_MESSAGE" value="周日(blog右侧快速链接)" />
+    <MESSAGE value="更新" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
